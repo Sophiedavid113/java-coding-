@@ -1,0 +1,114 @@
+System.outprintIn("hello world");
+answer hello world 
+....................................................................
+              Variable and datatypes
+ 
+ String name = "harry";
+ System.outprintIn("name") 
+ answer harry
+....................................................................
+ Intigar number = 32;
+ system.outprintIn("number");
+  answer. 32
+..... ..............................................................
+ Float desimal_ number = 123.6;
+  System.outprintIn("desimal_number")
+  Answer 123.6
+ ...................................................................
+           Two type of data type 
+1.  Primitive datatype 2 non primitive 
+ Primitive datatype 
+   byte(1 byte)  short(2 bytes) int(4 byte)
+   float(1 bytes)  boolean(1 bit)
+
+ non primitive datatype 
+ ...................................................................
+                      Operator in java
+ Arithmetic operator 
+      int num1 = 21;    int num2 = 20;
+    System.outprintIn("num1 + num2");
+    System.outprintIn("num1 - num2");
+   Answer 41 ,   1
+....................................................................
+Assignment operator 
+    int num = 1;    int  num = 2;
+ num1 +1        ,       num2  -  1;
+ answer 2   ,     1
+....................................................................
+ Comparison operator 
+    ===     !=    >   <         =>          <= 
+     True/false
+....................................................................
+ Logical operator 
+&&     dono condition true honi chayia
+||    dono me se ik condition true honi chayia 
+....................................................................
+                     If and else
+if   true  ho to code run kro
+else   false ho to code run kro
+
+int age = 15;
+
+if (age >= 18) {
+    System.out.println("You are an adult");
+} else {
+    System.out.println("You are not an adult");
+}
+....................................................................
+               String method 
+String name = "Ali";
+System.out.println(name.length());
+answer 3  length 
+....................................................................
+Uppercase
+....................................................................
+Lowercase
+....................................................................
+String a = "Ali";
+String b = "Ali";
+System.out.println(a.equals(b));
+Answer true      Equal 
+....................................................................
+                      Maths method
+ Int num1 = 2    ,    Int num2 = 4
+ math.max =  4       math.min =   2
+....................................................................
+math.abs ko - wala number dou ge Tou Woh positive Kar de Gia
+....................................................................
+                               Loops
+For loop 
+for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+        } 
+answer 1 2 3 4 5
+....................................................................
+While loop 
+int i = 1;
+
+        while (i <= 5) {
+            System.out.println(i);
+            i++;
+        } 
+answer 1 2 3 4 5 
+
+.........................
+foreach loop
+
+for (int num : numbers) {
+    System.out.println(num);
+}
+....................................................................
+                     Arrays
+int[ ] numbers = {10, 20, 30, 40, 50};
+
+System.out.println(numbers[0]);
+System.out.println(numbers[2]);
+.......................
+Two-Dimensional Array
+int[] [] numbers = {
+    {1, 2, 3},
+    {4, 5, 6}
+};
+.....................
+....................................................................
+ 
